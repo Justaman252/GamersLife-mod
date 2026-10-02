@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="gamerslife"
+version="1.0.0"
+displayName="GamersLife"
+authors="GamersLife"
+description='''GamersLife adds gamer drinks and a usable desktop PC.'''
+
+[[dependencies.gamerslife]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.gamerslife]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
